@@ -85,18 +85,34 @@ section.card-section p {
     font-weight: bold;
     padding: 16px 35px;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 #sedans button {
     color: var(--Bright_orange);
 }
+#sedans button:hover {
+    background-color: var(--Bright_orange);
+    color: var(--Very_light_gray);
+    outline: solid var(--Very_light_gray) 2px;
+}
 
 #suvs button {
     color: var(--Dark_cyan);
 }
+#suvs button:hover {
+    background-color: var(--Dark_cyan);
+    color: var(--Very_light_gray);
+    outline: solid var(--Very_light_gray) 2px;
+}
 
 #luxury button {
     color: var(--Very_dark_cyan);
+}
+#luxury button:hover {
+    background-color: var(--Very_dark_cyan);
+    color: var(--Very_light_gray);
+    outline: solid var(--Very_light_gray) 2px;
 }
 
 @media screen and (max-width: 1024px) {
